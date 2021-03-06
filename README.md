@@ -305,7 +305,7 @@ foreach(Cart::content() as $row) {
 ### Configuration
 To publish the `config` file.
 
-    php artisan vendor:publish --provider="Gloudemans\Shoppingcart\ShoppingcartServiceProvider" --tag="config"
+    php artisan vendor:publish --provider="Tefo\Cart\CartServiceProvider" --tag="config"
 
 This will give you a `cart.php` config file in which you can make the changes.
 
