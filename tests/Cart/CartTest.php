@@ -10,6 +10,7 @@ use Illuminate\Session\SessionManager;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
 use Mockery;
+use PHPUnit\Framework\TestCase;
 use Tefo\Cart\Cart;
 use Tefo\Cart\CartItem;
 use Tefo\Cart\CartServiceProvider;
@@ -18,7 +19,6 @@ use Tefo\Cart\Exceptions\UnknownModelException;
 use Tefo\Tests\Cart\CartAssertions;
 use Tefo\Tests\Cart\Fixtures\Product;
 use Tefo\Tests\Cart\Fixtures\ProductModel;
-use Tests\TestCase;
 
 class CartTest extends TestCase
 {
