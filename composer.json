@@ -15,7 +15,6 @@
         "illuminate/support": "6.* || 8.*",
         "illuminate/session": "6.* || 8.*",
         "illuminate/events": "6.* || 8.*",
-        "illuminate/foundation": "6.* || 8.*",
         "illuminate/auth": "6.* || 8.*",
         "illuminate/contracts": "6.* || 8.*"
     },

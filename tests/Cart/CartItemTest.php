@@ -2,7 +2,7 @@
 
 namespace Tefo\Tests\Cart\Cart;
 
-use PHPUnit\Framework\TestCase;
+use Orchestra\Testbench\TestCase;
 use Tefo\Cart\CartItem;
 use Tefo\Cart\CartServiceProvider;
 

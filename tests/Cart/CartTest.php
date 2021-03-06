@@ -4,12 +4,11 @@ namespace Tefo\Tests\Cart\Cart;
 
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Foundation\Application;
 use Illuminate\Session\SessionManager;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
 use Mockery;
-use PHPUnit\Framework\TestCase;
+use Orchestra\Testbench\TestCase;
 use Tefo\Cart\Cart;
 use Tefo\Cart\CartItem;
 use Tefo\Cart\CartServiceProvider;
@@ -26,10 +25,9 @@ class CartTest extends TestCase
     /**
      * Set the package service provider.
      *
-     * @param Application $app
      * @return array
      */
-    protected function getPackageProviders(Application $app): array
+    protected function getPackageProviders($app): array
     {
         return [CartServiceProvider::class];
     }
@@ -40,7 +38,7 @@ class CartTest extends TestCase
      * @param Application $app
      * @return void
      */
-    protected function getEnvironmentSetUp(Application $app)
+    protected function getEnvironmentSetUp($app)
     {
         $app['config']->set('session.driver', 'array');
 
