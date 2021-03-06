@@ -15,14 +15,14 @@ interface HasCart
     /**
      * Get the description or title of the HasCart item.
      *
-     * @return string
+     * @return string|null
      */
-    public function getHasCartDescription(): string;
+    public function getHasCartDescription(): ?string;
 
     /**
      * Get the price of the HasCart item.
      *
-     * @return float
+     * @return float|null
      */
-    public function getHasCartPrice(): float;
+    public function getHasCartPrice(): ?float;
 }
