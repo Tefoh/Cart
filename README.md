@@ -1,9 +1,8 @@
 ## Laravel cart
-[![Build Status](https://travis-ci.org/Tefoh/LaravelShoppingcart.svg?branch=master)](https://travis-ci.org/Crinsane/LaravelShoppingcart)
-[![Total Downloads](https://poser.pugx.org/tefo/cart/downloads.png)](https://packagist.org/packages/gloudemans/shoppingcart)
-[![Latest Stable Version](https://poser.pugx.org/tefo/cart/v/stable)](https://packagist.org/packages/gloudemans/shoppingcart)
-[![Latest Unstable Version](https://poser.pugx.org/tefo/cart/v/unstable)](https://packagist.org/packages/gloudemans/shoppingcart)
-[![License](https://poser.pugx.org/tefo/cart/license)](https://packagist.org/packages/gloudemans/shoppingcart)
+[![Build Status](https://travis-ci.org/Tefoh/Cart.svg?branch=master)](https://travis-ci.org/Tefoh/Cart)
+[![Total Downloads](https://poser.pugx.org/tefo/cart/downloads.png)](https://packagist.org/packages/tefo/cart)
+[![Latest Stable Version](https://poser.pugx.org/tefo/cart/v/stable)](https://packagist.org/packages/tefo/cart)
+[![License](https://poser.pugx.org/tefo/cart/license)](https://packagist.org/packages/tefo/cart)
 
 A simple shopping cart implementation for Laravel.
 
