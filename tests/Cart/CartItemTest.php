@@ -2,14 +2,12 @@
 
 namespace Tefo\Tests\Cart\Cart;
 
-use Illuminate\Foundation\Testing\TestCase;
+use PHPUnit\Framework\TestCase;
 use Tefo\Cart\CartItem;
 use Tefo\Cart\CartServiceProvider;
-use Tests\CreatesApplication;
 
 class CartItemTest extends TestCase
 {
-    use CreatesApplication;
 
     /**
      * Set the package service provider.
