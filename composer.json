@@ -1,0 +1,44 @@
+{
+    "name": "tefo/cart",
+    "description": "shopping cart for laravel",
+    "type": "library",
+    "keywords": ["laravel", "cart", "shoppingcart"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tefoh",
+            "email": "tefo.ha27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "6.* || 8.*",
+        "illuminate/session": "6.* || 8.*",
+        "illuminate/events": "6.* || 8.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.* || 9.*",
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^6.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tefo\\Cart\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tefo\\Tests\\Cart\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tefo\\Cart\\CartServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "Tefo\\Cart\\Facades\\Cart"
+            }
+        }
+    }
+}
