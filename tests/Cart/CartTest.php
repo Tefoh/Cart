@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Tefo\Tests\Cart\Cart;
 
 use Illuminate\Auth\Events\Logout;
